@@ -6,7 +6,7 @@ This project is a Machine Learning-based API for predicting credit risk. The API
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/risk-prediction-system.git
+   git clone https://github.com/mrcargi/risk-prediction-system.git
    cd risk-prediction-system
 
 2. Create and activate a virtual enviroment     
