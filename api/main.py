@@ -12,14 +12,6 @@ app = FastAPI()
 
 
 
-
-
-@app.get("/hello")
-async def hello():
-    return {"message ": "hello world"}
-
-
-
 @app.post('/predict/{model_name}')
 async def predict(model_name: str , request :PredictionRequest):
     try:  
