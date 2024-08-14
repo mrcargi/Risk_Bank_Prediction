@@ -21,7 +21,7 @@ This project is a Machine Learning-based API for predicting credit risk. The API
 ### Endpoint 1: get data to predict 
     - URL:/predict/{model_name}
     - Method : 'POST'
-    - Description : Submit loan applicant data to receive a credit risk prediction. Choose the model you want to use from "svm", "naive_bayes", "random_forest".You need a specific nomenclature for some parameters, which you can find here: https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data. Make sure that you have checked the parameters before making the request.
+    - Description : Submit loan applicant data to receive a credit risk prediction. Choose the model you want to use from "svm", "naive_bayes", "random_forest".You need a specific nomenclature for some parameters, which you can find here: [Credit data page](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data). Make sure that you have checked the parameters before making the request.
 
 
 
